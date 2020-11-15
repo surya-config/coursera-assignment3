@@ -1,0 +1,143 @@
+* {
+  /* top: 0;
+  bottom: 0; */
+  box-sizing: border-box;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+}
+
+.holder {
+  width: 100%;
+}
+
+.menu {
+  font-family: "Lucida Console", Courier, monospace;
+  margin-top: 15px;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.card {
+  position: relative;
+  display: flex;
+  background-color: darkgray;
+  min-height: 225px;
+  padding: 0;
+  float: left;
+  margin: 40px 0;
+  width: calc(100% - 50px);
+  margin-left: 30px;
+}
+
+#head {
+  font-size: 28px;
+  font-weight: bolder;
+  font-family: "Lucida Console", Courier, monospace;
+  margin-top: 10px;
+}
+
+#p1 {
+  position: relative;
+  top: 20px;
+  padding: 20px;
+  font-size: 19px;
+  font-weight: bold;
+  font-family: "Lucida Console", Courier, monospace;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-top: 10px;
+}
+
+.card-head {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  background-color: darkgray;
+  height: 35px;
+  padding: 0 20px;
+  text-align: center;
+  width: 100%;
+}
+
+#header-nav {
+  border-radius: 0;
+  border: 0;
+  background-color: darkgray;
+  height: 80px;
+}
+
+#brand-name {
+  color: black;
+  position: relative;
+  padding-right: 10px;
+  font-family: "Lucida Console", Courier, monospace;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.container {
+  margin-left: 10px;
+  margin-bottom: 30px;
+}
+
+.navbar-brand {
+  padding-top: 25px;
+  margin-left: 20px;
+}
+
+.nav-item {
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+}
+
+.navbar {
+  border: 3px solid black;
+  background-color: darkgray !important;
+  min-height: 120px;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-link {
+  color: black !important;
+  background-color: white;
+  margin: 0;
+  padding: 0 50px;
+}
+
+hr {
+  display: block;
+  margin: 0;
+  border-style: line;
+  border-width: 3px;
+  color: black;
+  background-color: black;
+}
+
+.abc .visible-xs {
+  background-color: white;
+}
+
+.navbar-toggler {
+  border: 1px solid black !important;
+  margin-right: 20px;
+}
+
+.navbar:active {
+  background-color: white;
+}
+
+@media (min-width: 768px) {
+  .navbar-expand-md .navbar-nav {
+    display: none !important;
+  }
+}
+
+.navbar-toggler-icon:hover {
+  color: darkgray;
+}
